@@ -55,3 +55,46 @@ body{
     padding: 0.6rem 0;
     font-size: 18px;
 }
+
+.wrapper {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sub_timer {
+    margin: 0 15px;
+}
+
+.digit {
+    font-size: 48px;
+}
+
+.digit_name {
+    font-size: 20px;
+}
+
+.start-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #28a745; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover {
+    background-color: #218838; /* Darker green */
+}
